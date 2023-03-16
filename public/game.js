@@ -73,7 +73,7 @@ update();
 
 
 function drawGrid() {
-    context.strokeStyle = 'rgba(200, 200, 200, 0.2)';
+    context.strokeStyle = 'rgba(200, 200, 200, 0.1)';
     for (let x = 0; x < canvas.width; x += grid) {
         context.beginPath();
         context.moveTo(x, 0);
